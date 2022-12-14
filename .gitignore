@@ -1,0 +1,8 @@
+## Monkey C
+bin/
+*.iq
+internal-mir/
+mir/
+
+## MacOS
+.DS_Store

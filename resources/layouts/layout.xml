@@ -1,0 +1,5 @@
+<layout id="WatchFace">
+    <drawable class="Background" />
+    <drawable class="InTimeClock" />
+    <drawable class="RealClock" />
+</layout>
