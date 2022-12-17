@@ -2,4 +2,5 @@
     <drawable class="Background" />
     <drawable class="InTimeClock" />
     <drawable class="RealClock" />
+    <drawable class="BatteryIndicator" />
 </layout>

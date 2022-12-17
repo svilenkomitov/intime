@@ -15,3 +15,7 @@
 ### Run in Simulator
 
 open ```source/InTimeApp.ms``` -> select ```Run``` in VSCode Menu bar -> select ```Run Without Debugging```
+
+## Resources
+
+* low-battery icon: https://www.flaticon.com/free-icon/low-battery_3103384?related_id=3103564&origin=search
