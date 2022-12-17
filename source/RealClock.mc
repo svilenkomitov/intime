@@ -16,7 +16,7 @@ class RealClock extends WatchUi.Drawable {
 
         dc.drawText(
 			dw/2,
-			dh/1.8,
+			dh/1.6,
 			Graphics.FONT_GLANCE_NUMBER,
 			getTime(),
 			Graphics.TEXT_JUSTIFY_CENTER

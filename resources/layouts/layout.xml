@@ -1,5 +1,6 @@
 <layout id="WatchFace">
     <drawable class="Background" />
+    <drawable class="RialLogo" />
     <drawable class="InTimeClock" />
     <drawable class="RealClock" />
     <drawable class="BatteryIndicator" />

@@ -19,7 +19,7 @@ class BatteryIndicator extends WatchUi.Drawable {
         var pwr = stats.battery;
 
         if (pwr < 10) {
-            dc.drawBitmap(dw/2.2, dh/6, WatchUi.loadResource(Rez.Drawables.LowBatteryIcon));
+            dc.drawBitmap(dw/2.2, dh/1.2, WatchUi.loadResource(Rez.Drawables.LowBatteryIcon));
         }
 	}
 }

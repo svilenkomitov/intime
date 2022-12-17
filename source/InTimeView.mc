@@ -23,6 +23,9 @@ class InTimeView extends WatchUi.WatchFace {
         var realClock = View.findDrawableById("RealClock");
         realClock.draw(dc);
 
+        var batteryIndicator = View.findDrawableById("BatteryIndicator");
+        batteryIndicator.draw(dc);
+
         View.onUpdate(dc);
     }
 

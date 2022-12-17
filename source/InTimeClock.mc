@@ -16,7 +16,7 @@ class InTimeClock extends WatchUi.Drawable {
 
         dc.drawText(
 			dw/2,
-			dh/3,
+			dh/2.6,
 			Graphics.FONT_SYSTEM_NUMBER_MEDIUM,
 			getTime(),
 			Graphics.TEXT_JUSTIFY_CENTER
