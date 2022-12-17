@@ -25,9 +25,9 @@ class InTimeClock extends WatchUi.Drawable {
 
     function getTime() {
         var clockTime = System.getClockTime();
-        var hoursTillEnd = 24 - clockTime.hour;
-        var minutesTillEnd = 60 - clockTime.min;
-        var secondsTillEnd = 60 - clockTime.sec;
+        var hoursTillEnd = 24 - clockTime.hour - 1;
+        var minutesTillEnd = 60 - clockTime.min - 1;
+        var secondsTillEnd = 60 - clockTime.sec - 1;
 
         return Lang.format("$1$:$2$:$3$", [hoursTillEnd.format("%02d"), minutesTillEnd.format("%02d"), secondsTillEnd.format("%02d")]);
     }
